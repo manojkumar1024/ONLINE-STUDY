@@ -33,6 +33,7 @@ function validateForm() {
     const password = id('password').value;
 
     if (name.trim() === '') {
+        
         alert("Username can't be blank");
         return false;
     } else if (name.length <= 3) {
